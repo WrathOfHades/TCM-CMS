@@ -1,0 +1,57 @@
+.sidebar {
+    background-color: #beddeb;
+    height: 75%;
+    min-height: 300px;
+    max-height: 800px;
+    max-height: 75%;
+    float: left;
+    width: 120px;
+    max-width: 400px;
+    max-width: 25%;
+    min-width: 120px;
+    resize: horizontal;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    background-color: rgba(202, 245, 239, 0.774);
+    height: 75%;
+    min-height: 300px;
+    max-height: 800px;
+    max-height: 75%;
+    padding: 25px;
+    width: 100%;
+    min-width: 300px;
+}
+
+.container {
+    overflow: hidden;
+    display: inline;
+}
+
+label {
+    padding-left: 20px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    text-align: left;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
